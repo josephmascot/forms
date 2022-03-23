@@ -42,7 +42,7 @@ function Contact() {
       <label for="StudentID">Student ID</label>
       <input type="number" id="studentID" name="student ID" placeholder="Your student ID Number.."required onChange={handleChange}/>
       <label for="date">Date Of Birth</label>
-      <input type="date" id="date" name="date" placeholder="Your Date of Birth.." value="01/01/2000" min='1990-01-01' max = '2015-01-01' required  onChange={handleChange}/>
+      <input type="date" id="date" name="date"  value="01/01/2000" min='1990-01-01' max = '2015-01-01' required  onChange={handleChange}/>
       <label for="country">Gender</label>
       <select id="country" name="country"required onChange={handleChange}>
       <option value='select'>Choose Gender</option>
